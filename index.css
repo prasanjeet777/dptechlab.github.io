@@ -5,7 +5,9 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
     
     body{
-        background-color: #23292e;
+        background-color: #ecf0f3;
+        position: relative;
+        min-height: 100vh;
     }
 
 .container{
@@ -115,45 +117,62 @@ ul.nav li.logo{float: left;}
     80% { content: "If you make [robots] perfectly realistic, you trigger this body-snatcher fear in some people. DAVID HANSON"; }
     90% { content: "Robots building robots. Now that's just stupid. JEFF VINTAR"; }
   }
-/*.imagetwo{
 
-    width: 100%;
-    height: 50%;
-    margin-left: auto;
-    margin-right: auto;
-
-}*/
-
-/*this css for block 3*/
 h1{
+    padding-top: 10px;
     text-align: center;
-    padding: 40px;
 }
 .texts{
     text-align: center;
     padding: 20px;
     font-size: large;
-    font-weight: 700 ;
+    font-style: oblique;
+}
+.con{
+   padding-top: 10px;
+    color: #000000;
+    text-align: center;
 }
 
+
+.mob{
+    padding: 7px;
+}
+.mobile{
+    font-size: 17px;
+    font-weight: 550;
+}
+
+.mob a{
+    text-decoration: none;
+    font-weight: 500;
+}
+.Address{
+    font-size: 17px;
+    font-weight: 550;
+}
+.add {
+    padding: 7px;
+}
 footer{
-    width: 100%;
-    height: auto;
-    background-color: #333;
-    color: aliceblue;
+    bottom: 0;
+    background-color: aliceblue;
 }
 
 .cont{
-    display: block;
     padding: 10px;  
     text-align: center;
     align-items: center;
 
+   
 }
 
-
-
-
+.copy{
+    background-color: #333333;
+    padding: 20px;
+    text-align: center;
+    color: seashell;
+}
 
 
 
@@ -211,6 +230,7 @@ footer{
     .dpone{
         width: 100%;
         background-color: rgb(4, 4, 4);
+        height: 100vh;
     }
     .dptwo{
         display: block;
@@ -242,30 +262,42 @@ footer{
     .texts{
         text-align: center;
     }
+    .con{
+        margin-top: 20px;
+        color: #000000; background-color: rgb(225, 200, 237);
+        text-align: center;
+    }
+    .contact{
+        font-size: larger;
+        font-weight: 600;
+    }
+    .mob{
+        padding: 7px;
+    }
+    .mobile{
+        font-size: 15px;
+        font-weight: 550;
+    }
+    
+    .mob a{
+        text-decoration: none;
+        font-weight: 500;
+    }
+    .Address{
+        font-size: 15px;
+        font-weight: 550;
+    }
+    .add {
+        padding: 20px;
+    }
+    .copy{
+        padding: 20px;
+        display: none;
+    }
+    
     
   }
   
 
 
-
-
-
-
- /* @media screen and (min-width: 800px){
-
-    .imagetwo{
-        width: 150px;
-        height: 150px;
-        margin-top: 80px;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 50%;
-    
-    }
-    .imageone{
-        width: 100%;
-        height: 100vh;
-        margin: 0%;
-    
-    }
   }*/
