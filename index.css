@@ -76,7 +76,7 @@ ul.nav li.logo{float: left;}
 /* this is block 2 */
 .quotes{
     text-align: center;
-    padding: 25px;
+    padding: 15px;
     font-size: larger;
     font-style: italic;
     font-weight: 700;
@@ -84,7 +84,7 @@ ul.nav li.logo{float: left;}
 
 }
 .quo{
-    height: 200px;
+    height: 175px;
     width:100%;
     padding: 40px;
     border-style: solid;
@@ -124,7 +124,7 @@ h1{
 }
 .texts{
     text-align: center;
-    padding: 20px;
+    padding: 12px;
     font-size: large;
     font-style: oblique;
 }
@@ -153,6 +153,9 @@ h1{
 }
 .add {
     padding: 7px;
+}
+.add p{
+    padding: 10px;
 }
 footer{
     bottom: 0;
